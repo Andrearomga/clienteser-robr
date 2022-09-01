@@ -1,0 +1,23 @@
+.formContainer {
+  background-color: rgb(0, 67, 182);
+  border-radius: 8px;
+  min-width: 300px;
+  width: 60%;
+  max-width: 500px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+    .inputContainer {
+     
+      svg {
+        width: 25px;
+        height: 20px;
+      }
+    }
+
+
+}

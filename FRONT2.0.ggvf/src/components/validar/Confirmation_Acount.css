@@ -1,0 +1,41 @@
+.acount{
+    background-position:  center;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container-Validd{
+    background-color: #fefefe;
+ border-radius: 10%;
+    min-width: 510px;
+    min-height: 476px;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: "title"
+                            "button";
+}
+
+.title-valid{
+    grid-area: title;
+    color: rgb(98, 86, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-valid{
+    grid-area: button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-valid button{
+    width: 290px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: aquamarine;
+}
